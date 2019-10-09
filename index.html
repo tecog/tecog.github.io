@@ -16,15 +16,31 @@ layout: default
     </article>
   {% endfor %}
 </div>
-
-<div id="live2d-widget">
-	<canvas id="live2dcanvas" width="300" height="600" style="position: fixed;opacity: 0.7;right: 0px;bottom: -20px;z-index: 99999;pointer-events: none;border: 1px);"></canvas>
-</div>
-
-
-<script type="text/javascript" charset="utf-8" async="" src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.0.min.js"></script>
-<script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js?_=1557308476616"></script>
+<div>
+<script type="text/javascript" charset="utf-8" async="" src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js"></script>
+<!-- 右下角live2d效果 -->
 <script type="text/javascript">
-L2Dwidget.init();
+	setTimeout(() => {
+     L2Dwidget.init({
+             "model": {
+                     "scale": 0.5
+             },
+             "display": {
+                     "position": "right",
+                    "width": 180,
+                    "height": 260,
+                    "hOffset": 0,
+                    "vOffset": -20
+            },
+            "mobile": {
+                    "show": true,
+                    "scale": 0.5
+            },
+            "react": {
+                    "opacityDefault": 0.7,
+                    "opacityOnHover": 0.2
+            }
+    });
+}, 1000)
 </script>
-
+</div>
