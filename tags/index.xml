@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 從善如流</title>
+    <link>https://www.pvpku.com/tags/</link>
+    <description>Recent content in Tags on 從善如流</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 21 Dec 2022 03:05:54 +0000</lastBuildDate>
+    <atom:link href="https://www.pvpku.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://www.pvpku.com/tags/git/</link>
+      <pubDate>Wed, 21 Dec 2022 03:05:54 +0000</pubDate>
+      <guid>https://www.pvpku.com/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://www.pvpku.com/tags/github/</link>
+      <pubDate>Wed, 21 Dec 2022 03:05:54 +0000</pubDate>
+      <guid>https://www.pvpku.com/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://www.pvpku.com/tags/javascript/</link>
+      <pubDate>Tue, 13 Dec 2022 02:34:57 +0000</pubDate>
+      <guid>https://www.pvpku.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
