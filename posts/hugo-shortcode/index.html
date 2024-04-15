@@ -8,9 +8,12 @@
 	
 	
 	
-	<title>Posts ｜ 從善如流</title>
+	<title>使用Hugo Shortcode引用代码文件 ｜ 從善如流</title>
 	
     
+    
+    <meta name="description" content="偶遇一需求，需要在hugo文章中引入代码文件，而不是直接粘贴代码，这样可以保持代码文件的原貌，同时也方便维护。Hugo提供了shortcode功能，可以方便的实现这个需求。
+" />
     
 
     
@@ -19,8 +22,6 @@
     
 
 	
-	<link rel="alternate" type="application/rss+xml" href="https://www.pvpku.com/posts/index.xml" title="從善如流" />
-    
     
     <link rel="shortcut icon" href="https://www.pvpku.com/images/favicon.ico" />
 
@@ -78,50 +79,66 @@
                 
                 <a href="https://github.com/tecog" title="github" target="_blank"><i class="ri-github-fill"></i></a>
                 
-                <a href="/posts/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
-                        class="ri-rss-fill"></i></a></div>
+                </div>
         </div>
     </div>
 </div>
         <div class="content">
-            <div class="list_with_title">
-                
-                <div class="listing_title">2024</div>
-                <div class="listing">
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/hugo-shortcode/">使用Hugo Shortcode引用代码文件</a>
-                            <div class="post_time"><span class="date">04-15</span></div>
-                        </div>
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/hugo-shortcode/'>使用Hugo Shortcode引用代码文件</a></h2>
+                        <span class="date">2024.04.15</span>
                     </div>
-                    
+                    <div class="post_content markdown"><p>偶遇一需求，需要在hugo文章中引入代码文件，而不是直接粘贴代码，这样可以保持代码文件的原貌，同时也方便维护。Hugo提供了shortcode功能，可以方便的实现这个需求。</p>
+<p>在主题或项目的 <code>layouts/shortcodes</code> 目录下创建一个新的文件，文件名即为 shortcode 的名字，例如 <code>code.html</code>，然后在文件中编写 shortcode 的内容。</p>
+<pre tabindex="0"><code class="language-hugo" data-lang="hugo">{{ $file := .Get &#34;file&#34; | readFile }}
+{{ $lang := .Get &#34;lang&#34; }}
+{{ $escapedFile := htmlEscape $file }}
+{{ $escapedCode := printf &#34;&lt;pre&gt;&lt;code class=\&#34;%s\&#34;&gt;%s&lt;/code&gt;&lt;/pre&gt;&#34; $lang $escapedFile | safeHTML }}
+{{ $escapedCode }}
+</code></pre><p>在文章中引用content/codes/example.c</p>
+
+
+
+
+<pre><code class="plaintext">{{&lt; code file=&#34;codes/example.c&#34; lang=&#34;C&#34; &gt;}}</code></pre>
+
+<p>效果如下
+
+
+
+
+<pre><code class="C">#include &lt;stdio.h&gt;
+int main() {
+    return 0;
+}</code></pre>
+</p></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://www.pvpku.com/tags/hugo/">hugo</a>
+                                    
+                                    <a href="https://www.pvpku.com/tags/shortcode/">shortcode</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
                 
-                <div class="listing_title">2022</div>
-                <div class="listing">
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/githubssh/">Github设置SSH key后推送依然要求输入用户名和密码</a>
-                            <div class="post_time"><span class="date">12-21</span></div>
-                        </div>
-                    </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/live2d/">Live2D 看板娘控件添加</a>
-                            <div class="post_time"><span class="date">12-13</span></div>
-                        </div>
-                    </div>
-                    
-                </div>
+                
+                <div class="doc_comments"></div>
                 
             </div>
-            <div class="pagination"></div>
         </div>
-        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     <footer class="footer">
     <div class="powered_by">
         <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
