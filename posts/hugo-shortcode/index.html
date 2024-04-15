@@ -98,13 +98,8 @@
 {{ $escapedCode := printf &#34;&lt;pre&gt;&lt;code class=\&#34;%s\&#34;&gt;%s&lt;/code&gt;&lt;/pre&gt;&#34; $lang $escapedFile | safeHTML }}
 {{ $escapedCode }}
 </code></pre><p>在文章中引用content/codes/example.c</p>
-
-
-
-
-<pre><code class="plaintext">{{&lt; code file=&#34;codes/example.c&#34; lang=&#34;C&#34; &gt;}}</code></pre>
-
-<p>效果如下
+<pre tabindex="0"><code class="language-hugo" data-lang="hugo">{{&lt; code file=&#34;codes/example.c&#34; lang=&#34;C&#34; &gt;}}
+</code></pre><p>效果如下
 
 
 
