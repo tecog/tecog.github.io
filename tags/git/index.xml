@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on 從善如流</title>
-    <link>https://pvpku.com/tags/git/</link>
+    <link>https://www.pvpku.com/tags/git/</link>
     <description>Recent content in Git on 從善如流</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 21 Dec 2022 03:05:54 +0000</lastBuildDate>
-    <atom:link href="https://pvpku.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.pvpku.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github设置SSH key后推送依然要求输入用户名和密码</title>
-      <link>https://pvpku.com/posts/githubssh/</link>
+      <link>https://www.pvpku.com/posts/githubssh/</link>
       <pubDate>Wed, 21 Dec 2022 03:05:54 +0000</pubDate>
-      <guid>https://pvpku.com/posts/githubssh/</guid>
+      <guid>https://www.pvpku.com/posts/githubssh/</guid>
       <description>&lt;p&gt;推送代码到Github时发现要求登录，明明已经设置过了SSH，而且另外的项目也可以正常推送，故判断是项目配置问题，一番调查后找到原因&lt;/p&gt;</description>
     </item>
   </channel>
