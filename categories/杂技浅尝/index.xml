@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>杂技浅尝 on 從善如流</title>
-    <link>https://www.pvpku.com/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</link>
+    <link>https://pvpku.com/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</link>
     <description>Recent content in 杂技浅尝 on 從善如流</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 21 Dec 2022 03:05:54 +0000</lastBuildDate>
-    <atom:link href="https://www.pvpku.com/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pvpku.com/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github设置SSH key后推送依然要求输入用户名和密码</title>
-      <link>https://www.pvpku.com/posts/githubssh/</link>
+      <link>https://pvpku.com/posts/githubssh/</link>
       <pubDate>Wed, 21 Dec 2022 03:05:54 +0000</pubDate>
-      <guid>https://www.pvpku.com/posts/githubssh/</guid>
+      <guid>https://pvpku.com/posts/githubssh/</guid>
       <description>&lt;p&gt;推送代码到Github时发现要求登录，明明已经设置过了SSH，而且另外的项目也可以正常推送，故判断是项目配置问题，一番调查后找到原因&lt;/p&gt;</description>
     </item>
     <item>
       <title>Live2D 看板娘控件添加</title>
-      <link>https://www.pvpku.com/posts/live2d/</link>
+      <link>https://pvpku.com/posts/live2d/</link>
       <pubDate>Tue, 13 Dec 2022 02:34:57 +0000</pubDate>
-      <guid>https://www.pvpku.com/posts/live2d/</guid>
+      <guid>https://pvpku.com/posts/live2d/</guid>
       <description>&lt;p&gt;偶然间在别人的博客内看到了右下角的可爱少女，很神奇的是她的目光会跟随鼠标位置，活灵活现，于是研究一番，成功在博客上部署了Live2d.&lt;/p&gt;</description>
     </item>
   </channel>

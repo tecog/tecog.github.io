@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&amp;C&#43;&#43; on 從善如流</title>
-    <link>https://www.pvpku.com/tags/cc&#43;&#43;/</link>
+    <link>https://pvpku.com/tags/cc&#43;&#43;/</link>
     <description>Recent content in C&amp;C&#43;&#43; on 從善如流</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 22 Apr 2024 09:59:26 +0800</lastBuildDate>
-    <atom:link href="https://www.pvpku.com/tags/cc++/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pvpku.com/tags/cc++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C语言实现回调函数</title>
-      <link>https://www.pvpku.com/posts/c-callback/</link>
+      <link>https://pvpku.com/posts/c-callback/</link>
       <pubDate>Mon, 22 Apr 2024 09:59:26 +0800</pubDate>
-      <guid>https://www.pvpku.com/posts/c-callback/</guid>
+      <guid>https://pvpku.com/posts/c-callback/</guid>
       <description>&lt;p&gt;回调函数通常用于在一些比较耗时的操作中，作用是通知用户操作的进度或者结果。&lt;br&gt;&#xA;在一些SDK中，比如网络库、数据库库等，都会提供回调函数接口，用户可以通过这个接口注册自己的回调函数进行自定义操作。&lt;br&gt;&#xA;通常，允许用户自定义回调函数的接口还允许传递一个userdata指针参数用于传递用户数据，这样在回调函数中通过这个指针就可以访问到用户数据。&lt;/p&gt;</description>
     </item>
   </channel>
