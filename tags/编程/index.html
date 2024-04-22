@@ -8,12 +8,9 @@
 	
 	
 	
-	<title>Live2D 看板娘控件添加 ｜ 從善如流</title>
+	<title>编程 ｜ 從善如流</title>
 	
     
-    
-    <meta name="description" content="偶然间在别人的博客内看到了右下角的可爱少女，很神奇的是她的目光会跟随鼠标位置，活灵活现，于是研究一番，成功在博客上部署了Live2d.
-" />
     
 
     
@@ -22,6 +19,8 @@
     
 
 	
+	<link rel="alternate" type="application/rss+xml" href="https://pvpku.com/tags/%E7%BC%96%E7%A8%8B/index.xml" title="從善如流" />
+    
     
     <link rel="shortcut icon" href="https://pvpku.com/images/favicon.ico" />
 
@@ -79,73 +78,31 @@
                 
                 <a href="https://github.com/tecog" title="github" target="_blank"><i class="ri-github-fill"></i></a>
                 
-                </div>
+                <a href="/tags/%E7%BC%96%E7%A8%8B/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a></div>
         </div>
     </div>
 </div>
         <div class="content">
-            <div class="post_page">
-                <div class="post animate__animated animate__fadeInDown">
-                    <div class="post_title post_detail_title">
-                        <h2><a href='/posts/live2d/'>Live2D 看板娘控件添加</a></h2>
-                        <span class="date">2022.12.13</span>
-                    </div>
-                    <div class="post_content markdown"><p>偶然间在别人的博客内看到了右下角的可爱少女，很神奇的是她的目光会跟随鼠标位置，活灵活现，于是研究一番，成功在博客上部署了Live2d.</p>
-<h2 id="配置代码">配置代码</h2>
-<blockquote>
-<p>themes/zozo/layouts/partials/js.html</p>
-</blockquote>
-<pre tabindex="0"><code>&lt;script type=&#34;text/javascript&#34; charset=&#34;utf-8&#34; async=&#34;&#34; 
-    src=&#34;https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js&#34;&gt;
-&lt;/script&gt;
-&lt;script type=&#34;text/javascript&#34;&gt;
-    setTimeout(() =&gt; {
-    L2Dwidget.init({
-        &#34;model&#34;: {
-            &#34;scale&#34;: 1
-        },
-        &#34;display&#34;: {
-            &#34;position&#34;: &#34;right&#34;,
-            &#34;vOffset&#34;: -70
-        },
-        &#34;mobile&#34;: {
-            &#34;show&#34;: false,
-            &#34;scale&#34;: 0.2
-        },
-        &#34;react&#34;: {
-            &#34;opacityDefault&#34;: 0.7,
-            &#34;opacityOnHover&#34;: 0.2
-        },
-        &#34;dev&#34;: {
-            &#34;border&#34;: 0
-        }
-    });
-}, 1000)
-&lt;/script&gt;
-</code></pre></div>
-                    <div class="post_footer">
-                        
-                        <div class="meta">
-                            <div class="info">
-                                <span class="field tags">
-                                    <i class="ri-stack-line"></i>
-                                    
-                                    <a href="https://pvpku.com/tags/javascript/">javascript</a>
-                                    
-                                </span>
-                            </div>
+            <div class="list_with_title">
+                
+                <div class="listing_title">2024</div>
+                <div class="listing">
+                    
+                    <div class="listing_item">
+                        <div class="listing_post">
+                            <a href="/posts/c-callback/">C语言实现回调函数</a>
+                            <div class="post_time"><span class="date">04-22</span></div>
                         </div>
-                        
                     </div>
+                    
                 </div>
                 
-                
-                <div class="doc_comments"></div>
-                
             </div>
+            <div class="pagination"></div>
         </div>
+        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     </div>
-    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     <footer class="footer">
     <div class="powered_by">
         <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
