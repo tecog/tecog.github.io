@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 從善如流</title>
-    <link>https://pvpku.com/posts/</link>
+    <link>https://www.pvpku.com/posts/</link>
     <description>Recent content in Posts on 從善如流</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 22 Apr 2024 09:59:26 +0800</lastBuildDate>
-    <atom:link href="https://pvpku.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.pvpku.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C语言实现回调函数</title>
-      <link>https://pvpku.com/posts/c-callback/</link>
+      <link>https://www.pvpku.com/posts/c-callback/</link>
       <pubDate>Mon, 22 Apr 2024 09:59:26 +0800</pubDate>
-      <guid>https://pvpku.com/posts/c-callback/</guid>
+      <guid>https://www.pvpku.com/posts/c-callback/</guid>
       <description>&lt;p&gt;回调函数通常用于在一些比较耗时的操作中，作用是通知用户操作的进度或者结果。&lt;br&gt;&#xA;在一些SDK中，比如网络库、数据库库等，都会提供回调函数接口，用户可以通过这个接口注册自己的回调函数进行自定义操作。&lt;br&gt;&#xA;通常，允许用户自定义回调函数的接口还允许传递一个userdata指针参数用于传递用户数据，这样在回调函数中通过这个指针就可以访问到用户数据。&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用Hugo Shortcode引用代码文件</title>
-      <link>https://pvpku.com/posts/hugo-shortcode/</link>
+      <link>https://www.pvpku.com/posts/hugo-shortcode/</link>
       <pubDate>Mon, 15 Apr 2024 10:23:38 +0800</pubDate>
-      <guid>https://pvpku.com/posts/hugo-shortcode/</guid>
+      <guid>https://www.pvpku.com/posts/hugo-shortcode/</guid>
       <description>&lt;p&gt;偶遇一需求，需要在hugo文章中引入代码文件，而不是直接粘贴代码，这样可以保持代码文件的原貌，同时也方便维护。Hugo提供了shortcode功能，可以方便的实现这个需求。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Github设置SSH key后推送依然要求输入用户名和密码</title>
-      <link>https://pvpku.com/posts/githubssh/</link>
+      <link>https://www.pvpku.com/posts/githubssh/</link>
       <pubDate>Wed, 21 Dec 2022 03:05:54 +0000</pubDate>
-      <guid>https://pvpku.com/posts/githubssh/</guid>
+      <guid>https://www.pvpku.com/posts/githubssh/</guid>
       <description>&lt;p&gt;推送代码到Github时发现要求登录，明明已经设置过了SSH，而且另外的项目也可以正常推送，故判断是项目配置问题，一番调查后找到原因&lt;/p&gt;</description>
     </item>
     <item>
       <title>Live2D 看板娘控件添加</title>
-      <link>https://pvpku.com/posts/live2d/</link>
+      <link>https://www.pvpku.com/posts/live2d/</link>
       <pubDate>Tue, 13 Dec 2022 02:34:57 +0000</pubDate>
-      <guid>https://pvpku.com/posts/live2d/</guid>
+      <guid>https://www.pvpku.com/posts/live2d/</guid>
       <description>&lt;p&gt;偶然间在别人的博客内看到了右下角的可爱少女，很神奇的是她的目光会跟随鼠标位置，活灵活现，于是研究一番，成功在博客上部署了Live2d.&lt;/p&gt;</description>
     </item>
   </channel>

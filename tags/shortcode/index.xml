@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shortcode on 從善如流</title>
-    <link>https://pvpku.com/tags/shortcode/</link>
+    <link>https://www.pvpku.com/tags/shortcode/</link>
     <description>Recent content in Shortcode on 從善如流</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 Apr 2024 10:23:38 +0800</lastBuildDate>
-    <atom:link href="https://pvpku.com/tags/shortcode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.pvpku.com/tags/shortcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用Hugo Shortcode引用代码文件</title>
-      <link>https://pvpku.com/posts/hugo-shortcode/</link>
+      <link>https://www.pvpku.com/posts/hugo-shortcode/</link>
       <pubDate>Mon, 15 Apr 2024 10:23:38 +0800</pubDate>
-      <guid>https://pvpku.com/posts/hugo-shortcode/</guid>
+      <guid>https://www.pvpku.com/posts/hugo-shortcode/</guid>
       <description>&lt;p&gt;偶遇一需求，需要在hugo文章中引入代码文件，而不是直接粘贴代码，这样可以保持代码文件的原貌，同时也方便维护。Hugo提供了shortcode功能，可以方便的实现这个需求。&lt;/p&gt;</description>
     </item>
   </channel>
